@@ -7,10 +7,10 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/projectsintro.jpg
-  # actions:
+   actions:
     - label: "Download"
       url: "https://github.com/mmistakes/minimal-mistakes/"
-  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Projects: apps, Datastories, Datascience proejcts and Dashboards."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
