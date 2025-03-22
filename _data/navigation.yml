@@ -1,5 +1,6 @@
 main:
-  - title: "About"
-    url: /about/
   - title: "Projects"
     url: /projects/
+    children:
+      - title: "Datascience Projects"
+        url: /datascience-projects/

@@ -18,23 +18,31 @@ feature_row:
   - image_path: /assets/images/datascience-logo.png
     title: "Data analysis projects"
     excerpt: "A variety of data analysis and datascience projects."
+    url: /datascience-projects/
     btn_label: "View projects"
-    btn_class: "btn--primary"
+    btn_class: "btn--custom"
   - image_path: /assets/images/datastories-logo.png
     title: "LOD Datastories"
     excerpt: "Datastories built with SPARQL queries in Triply environment"
     url: "https://linkeddata.cultureelerfgoed.nl/sablina-vis/-/stories"
+    btn_label: "View Datastories"
+    btn_class: "btn--custom"
   - image_path: /assets/images/leafletLOD-logo.png
     alt: "placeholder image 1"
     title: "Leaflet LOD app"
     excerpt: "A demonstrative leaflet app that uses a SPARQL-query RestAPI to populate the map."
+    url: "https://github.com/sablinavis/leaflet-sparql-amsterdam"
+    btn_label: "View App"
+    btn_class: "btn--custom"
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
   - image_path: /assets/images/handleiding-logo.png
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
     title: "RCE PoolParty handleiding"
     excerpt: "Specifieke PoolParty handleiding voor de RCE."
     url: "https://cultureelerfgoed.github.io/Poolparty-User-Documentation/"
+    btn_label: "View Site"
+    btn_class: "btn--custom"
   # - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
   #   title: "Placeholder 3"
   #   excerpt: "This is some sample content that goes here with **Markdown** formatting."

@@ -58,14 +58,14 @@ plugins:
 author:
   name   : "Sablina Vis"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Bio."
+  bio    : "Whether it's professionally or in my free time, I enjoy solving complex puzzles. Data is everywhere and continues to grow. That's why I want to contribute to making knowledge-driven decisions. For me, that means bringing together technology and communication so that insights from data and technical solutions can be applied in a sustainable and practical way."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
     #  url: "https://"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-twitter-square"
-      url: #"https://twitter.com/"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/sablina-vis/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sablinavis"

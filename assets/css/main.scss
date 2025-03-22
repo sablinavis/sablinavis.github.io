@@ -8,4 +8,49 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
 $body-color : #f2f2f2;
+
+$paragraph-indent : true;
+.page__lead {
+    font-family: $global-font-family;
+    font-size: $type-size-4;
+  }
+
+  body.smaller-body {
+    li, td, ul {
+      font-size: 0.7rem;
+      line-height: 1.6;
+    }
+  }
+  
+  .btn--custom {
+    @extend .btn; // base button style from Minimal Mistakes
+    background-color: #d4e3e7; // soft pastel purple
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 0.75em 1.5em;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #6fb3d2;
+      text-decoration: none;
+    }
+  }
+  
+  .custom-p-size {
+    font-size: 0.8rem !important;;  
+    line-height: 1.6;
+    border: 1px solid #ccc;          // grijze rand
+    padding: 1em;                    // binnenruimte
+    max-width: 80%;                  // niet zo wijd als de rest
+    margin: 2em auto;                // centreer het blok
+    margin-left: 10%;
+    border-radius: 8px;              // afgeronde hoeken (optioneel)
+    background-color: #f9f9f9;       // lichte achtergrond (optioneel)
+    transform: translateX(80px);
+   
+  }
+  
+  
