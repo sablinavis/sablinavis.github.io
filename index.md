@@ -6,7 +6,7 @@ layout: single
 author_profile: true
 classes: smaller-body 
 classes: custom-p-size
-classes: wide
+classes: #wide
 
 ---
 
