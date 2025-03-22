@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: true
-classes: smaller-body 
+classes: #smaller-body 
 classes: custom-p-size
 classes: #wide
 
