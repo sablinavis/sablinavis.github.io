@@ -15,6 +15,9 @@ excerpt: "Projects: apps, Datastories, Datascience proejcts and Dashboards."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
+  - image_path: /assets/images/datastories-logo.png
+    title: "LOD Datastories"
+    excerpt: "Datastories built with SPARQL queries in Triply environment"
   - image_path: /assets/images/leafletLOD-logo.png
     alt: "placeholder image 1"
     title: "Leaflet LOD app"
