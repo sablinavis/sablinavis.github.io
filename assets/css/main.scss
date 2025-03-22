@@ -53,4 +53,110 @@ $paragraph-indent : true;
    
   }
   
+  // jupiter notebooks pages
+
+  .gist-container {
+    width: 100%;
+    min-height: 80vh;
+    margin-bottom: 2rem;
+  }
+  
+  .gist-container iframe {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 80vh !important;
+    margin: 0 auto !important;
+    border: none;
+  }
+
+  .title-jupyter-notebooks {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+//   .inline-image-wrapper {
+//     position: relative;              /* Needed so overlay positions inside this */
+//     display: inline-block;           /* Important to match image size */
+//     margin: 2rem auto;
+//   }
+  
+//   .inline-image-wrapper img {
+//     max-width: 500px;
+//     height: auto;
+//     border-radius: 6px;
+//     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+//     display: block;
+//   }
+  
+//   .image-caption-overlay {
+//     position: absolute;
+//     bottom: 0.5rem;
+//     right: 1rem;
+//     background-color: rgba(0, 0, 0, 0.6);
+//     color: #fff;
+//     padding: 0.3rem 0.6rem;
+//     font-size: 0.75rem;
+//     border-radius: 4px;
+//     pointer-events: none;
+//   }
+
+.inline-image-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .inline-image-clickable {
+    max-width: 500px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+  
+  .image-overlay-link {
+    position: absolute;
+    font-size: 0.65rem !important;
+    bottom: 0.5rem;
+    right: 1rem;
+    background-color: rgba(0, 0, 0, 0.6); /* subtle dark overlay */
+    color: #ffffff !important;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+    text-decoration: none;
+    border-radius: 4px;
+    z-index: 10;
+    opacity: 0.85;
+    transition: opacity 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .image-overlay-link:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+
+// page layout, need to check if still necessary
+
+  .custom-layout-center {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 1rem;
+  }
+  
+  .page {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .page__inner-wrap {
+    padding: 0;
+  }
+  
+  .page__content {
+    text-align: center;
+  }
   

@@ -1,4 +1,9 @@
 ---
+title: Datascience Projects
+layout: collection
 permalink: /datascience-projects/
-title: "Datascience and Analysis Projects"
+collection: datascience-projects
+entries_layout: grid
+classes: wide
 ---
+

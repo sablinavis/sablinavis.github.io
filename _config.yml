@@ -111,3 +111,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  datascience-projects:
+    output: true
+    permalink: /:collection/:name/
