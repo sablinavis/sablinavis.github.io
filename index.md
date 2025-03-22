@@ -12,7 +12,7 @@ classes: #wide
 
 
 <h3>Experience</h3>
-
+<div>
 <table>
   <thead>
     <tr>
@@ -98,5 +98,5 @@ University of Amsterdam</td>
     </tr>
   </tbody>
 </table>
-
+</div>
 
