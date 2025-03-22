@@ -15,10 +15,10 @@ excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef 
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
-  - image_path: assets/images/leafletLOD.png
+  - image_path: /assets/images/leafletLOD.png
     alt: "placeholder image 1"
     title: "Leaflet LOD app"
-    excerpt: "A demonstrative leaflet app that used a SPARQL-query RestAPI to populate the map."
+    excerpt: "A demonstrative leaflet app that uses a SPARQL-query RestAPI to populate the map."
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
