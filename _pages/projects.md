@@ -19,6 +19,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Leaflet LOD app"
     excerpt: "A demonstrative leaflet app that used a SPARQL-query RestAPI to populate the map."
+    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
