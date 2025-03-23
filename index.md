@@ -4,15 +4,18 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: true
-classes: #smaller-body 
-classes: custom-p-size
-classes: #wide
+classes: #custom-p-size homepage-experience-table
+classes: wide
 
 ---
 
 
+
+
 <h3>Experience</h3>
-<div>
+<div class="page__inner-wrap">
+  <section class="page__content">
+    <div class="homepage-experience-table">
 <table>
   <thead>
     <tr>
@@ -98,5 +101,7 @@ University of Amsterdam</td>
     </tr>
   </tbody>
 </table>
+    </div>
+  </section>
 </div>
 
