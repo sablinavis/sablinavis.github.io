@@ -1,49 +1,41 @@
 ---
-title: "Projects"
+title: "Open Source Applications and Websites"
 layout: splash
-permalink: /projects/
-author_profile: true
+permalink: /applications/
+author_profile: False
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/projectsintro.jpg
+  overlay_image: /assets/images/banner-applications.png
   actions:
     - label: "Github"
       url: "https://github.com/sablinavis"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Projects: apps, Datastories, Datascience proejcts and Dashboards."
+excerpt: ""
 intro: 
   - excerpt: 'Here you can find a summary of the projects I have worked on or am curretly working on that are public for viewing.'
 feature_row:
-  - image_path: /assets/images/datascience-logo.png
-    title: "Data analysis projects"
-    excerpt: "A variety of data analysis and datascience projects."
-    url: /datascience-projects/
-    btn_label: "View projects"
+  - image_path: /assets/images/amsterdam-leaflet.png
+    title: "Straatvernoemer - Amsterdam"
+    excerpt: "Naar wie is de straat vernoemd?."
+    url: "https://github.com/sablinavis/leaflet-sparql-amsterdam"
+    btn_label: "View App"
     btn_class: "btn--custom"
-  - image_path: /assets/images/datastories-logo.png
-    title: "LOD Datastories"
-    excerpt: "Datastories built with SPARQL queries in Triply environment"
-    url: "https://linkeddata.cultureelerfgoed.nl/sablina-vis/-/stories"
-    btn_label: "View Datastories"
-    btn_class: "btn--custom"
-  - image_path: /assets/images/banner-applications-logo.png
+  - image_path: /assets/images/leafletLOD-logo.png
     alt: "placeholder image 1"
-    title: "Applications and Websites"
-    excerpt: "Open Source Applications."
-    # url: "https://github.com/sablinavis/leaflet-sparql-amsterdam"
+    title: "Test Leaflet-Python with SPARQL endpoint."
+    excerpt: "A demonstrative leaflet app that uses a SPARQL-query RestAPI to populate the map."
+    url: "https://sablinavis.github.io/Leaflet-LOD/"
     url: "/applications/"
-    btn_label: "View Apps"
+    btn_label: "View App"
     btn_class: "btn--custom"
-    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-  # - image_path: /assets/images/handleiding-logo.png
-  #   # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-  #   alt: "placeholder image 2"
-  #   title: "RCE PoolParty handleiding"
-  #   excerpt: "Specifieke PoolParty handleiding voor de RCE."
-  #   url: "https://cultureelerfgoed.github.io/Poolparty-User-Documentation/"
-  #   btn_label: "View Site"
-  #   btn_class: "btn--custom"
+  - image_path: /assets/images/handleiding-logo.png
+    alt: "placeholder image 2"
+    title: "RCE PoolParty handleiding"
+    excerpt: "Specifieke PoolParty handleiding voor de RCE."
+    url: "https://cultureelerfgoed.github.io/Poolparty-User-Documentation/"
+    btn_label: "View Site"
+    btn_class: "btn--custom"
   # - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
   #   title: "Placeholder 3"
   #   excerpt: "This is some sample content that goes here with **Markdown** formatting."
@@ -77,10 +69,10 @@ feature_row:
 
 {% include feature_row %}
 
-<!-- {% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
-{% include feature_row id="feature_row4" type="center" %} -->
+{% include feature_row id="feature_row4" type="center" %}
 
-<!-- --- -->
+---
