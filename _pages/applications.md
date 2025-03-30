@@ -26,7 +26,12 @@ feature_row:
     title: "Test Leaflet-Python with SPARQL endpoint."
     excerpt: "A demonstrative leaflet app that uses a SPARQL-query RestAPI to populate the map."
     url: "https://sablinavis.github.io/Leaflet-LOD/"
-    url: "/applications/"
+    btn_label: "View App"
+    btn_class: "btn--custom"
+  - image_path: /assets/images/amsterdam-leaflet.png
+    title: "Wikipedia to N-triples"
+    excerpt: "Crawling wikipedia and transforming title and description to linked data."
+    url: /applications/wikipedia-to-nt/
     btn_label: "View App"
     btn_class: "btn--custom"
   - image_path: /assets/images/handleiding-logo.png

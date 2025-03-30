@@ -116,3 +116,6 @@ collections:
   datascience-projects:
     output: true
     permalink: /:collection/:name/
+  applications:
+    output: true
+    permalink: /:collection/:name/
