@@ -28,7 +28,8 @@ feature_row:
     url: "https://sablinavis.github.io/Leaflet-LOD/"
     btn_label: "View App"
     btn_class: "btn--custom"
-  - image_path: /assets/images/amsterdam-leaflet.png
+  - image_path: "/assets/images/wikipedia-to-nt.png"
+    alt: "Image from Wikimedia commons"
     title: "Wikipedia to N-triples"
     excerpt: "Crawling wikipedia and transforming title and description to linked data."
     url: /applications/wikipedia-to-nt/
