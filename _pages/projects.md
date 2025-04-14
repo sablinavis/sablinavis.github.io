@@ -11,7 +11,7 @@ header:
     - label: "Github"
       url: "https://github.com/sablinavis"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Projects: apps, Datastories, Datascience proejcts and Dashboards."
+excerpt: "Projects: apps, Datastories, Datascience projects and Dashboards."
 intro: 
   - excerpt: 'Here you can find a summary of the projects I have worked on or am curretly working on that are public for viewing.'
 feature_row:
